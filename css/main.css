@@ -1,0 +1,16 @@
+body{
+    background-color: black;
+}
+
+li,ol{
+    list-style: none;
+}
+
+
+.list__item:hover{
+    box-shadow: #fff 0px 0px 10px, #fff 0px 0px 15px, #fff 0px 0px 20px,
+    cyan 0px 0px 20px, cyan 0px 0px 30px, cyan
+     0px 0px 40px,
+    cyan 0px 0px 50px, cyan 0px 0px 75px;
+    transition: 3s ease;
+}
